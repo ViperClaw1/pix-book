@@ -1,5 +1,3 @@
-
-
 ## Add Description Field to Shopping Items
 
 ### 1. Database Migration
@@ -21,8 +19,7 @@ ADD COLUMN description text DEFAULT '';
 
 ### Files Changed
 
-| File | Action |
-|------|--------|
-| Migration SQL | Add `description` column to `shopping_items` |
+| File                                    | Action                                                       |
+| --------------------------------------- | ------------------------------------------------------------ |
+| Migration SQL                           | Add `description` column to `shopping_items`                 |
 | `src/pages/AdminBusinessCardDetail.tsx` | Add description textarea to dialog and display in item cards |
-
